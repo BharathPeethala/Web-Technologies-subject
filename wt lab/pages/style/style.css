@@ -1,46 +1,147 @@
-.nav_links{
-
-    text-align: center;
-    margin: 6%;
-    color: #48cae4;
-    font-size: 2rem;
+.nav_links {
+	text-align: center;
+	margin: 6%;
+	color: #48cae4;
+	font-size: 2rem;
 }
 a {
-    
-    text-decoration: none;
-    color: #48cae4;
+	text-decoration: none;
+	color: #48cae4;
 }
 
 a:hover {
-    color: aqua;
+	color: aqua;
 }
 
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
+	color: #0298b6;
 }
 
-.welcome_text{
-        text-align: center;
-        color: #48cae4;
-        font-size: 3rem;
-        font-family: sans-serif;
-        margin-top: 200px;
+.welcome_text {
+	text-align: center;
+	color: #48cae4;
+	font-size: 3rem;
+	font-family: sans-serif;
+	margin-top: 100px;
 }
 
-img{
-    margin: 0;
-    height: 89px;
+img {
+	margin: 0;
+	height: 89px;
 }
 
-.branch_links{
-    font-size: 1.5rem;
+.branch_links {
+	font-size: 1.5rem;
 }
-.tagline{
-    word-spacing: 30px;
-    font-style: oblique;
-   float: right;
-   margin-right: 2%;
-   font-size: 2rem;
-   font-family: sans-serif;
-   color: #48cae4;
+.tagline {
+	word-spacing: 30px;
+	font-style: oblique;
+	float: right;
+	margin-right: 2%;
+	font-size: 2rem;
+	font-family: sans-serif;
+	color: #48cae4;
+}
+
+.heading {
+	font-size: 3rem;
+	color: #0096c7;
+}
+
+.heading_2 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.1rem;
+}
+
+.btn {
+	width: 100px;
+	height: 50px;
+	border: 2px solid #0298b6;
+	margin-left: 20px;
+	color: #0096c7;
+	font-weight: bolder;
+	font-size: large;
+	background-color: white;
+	border-radius: 50px;
+}
+
+.btn:hover {
+	background-color: #0096c7;
+	color: white;
+}
+
+.labels {
+	font-size: 1.4rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+	font-size: 1.4rem;
+	color: #0298b6;
+	border: 2px solid #0096c7;
+	border-radius: 10px;
+	text-decoration: none;
+	width: 250px;
+	height: 40px;
+	margin: 20px;
+}
+
+textarea {
+	font-size: 1.4rem;
+	color: #0298b6;
+	border: 2px solid #0096c7;
+	border-radius: 10px;
+	text-decoration: none;
+	width: 250px;
+	height: 100px;
+	margin: 20px;
+}
+#scroll-text {
+	color: red;
+}
+
+input[type="radio"] {
+	margin: 5px;
+}
+
+input:focus {
+	outline: none !important;
+}
+
+textarea:focus {
+	outline: none !important;
+}
+
+.lang_box {
+	padding-left: 10px;
+}
+.book_images {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 10rem;
+	height: 10rem;
+}
+.cart_btn {
+	width: 200px;
+}
+.catalog_table,
+.catalog_cells {
+	border: 3px solid rgb(218, 216, 216);
+	border-collapse: collapse;
+	font-size: 1.5rem;
+}
+
+i {
+	font-size: 1rem;
+}
+
+marquee i {
+	font-size: 2rem;
 }
