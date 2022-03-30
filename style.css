@@ -1,0 +1,25 @@
+.login{
+    display: flex;
+    position: relative;
+}
+.labels{
+    display: grid;
+    position: absolute;
+    right: 55%;
+}
+
+.inputs{
+    position: absolute;
+    width: 25%;
+    display: grid;
+    left: 50%;
+}
+
+.submit{
+    position: absolute;
+    width: 10%;
+    display: grid;
+    left: 50%;
+    Top: 10rem;
+}
+
